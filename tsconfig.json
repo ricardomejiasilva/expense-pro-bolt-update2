@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "strict": true,
+        "jsx": "react",
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "lib": ["esnext"],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowJs": true,
+        "checkJs": false,
+        "paths": {
+            "assets/*": ["./assets/*"],
+            "contexts/*": ["./app/contexts/*"],
+            "components/*": ["./app/components/*"],
+            "config/*": ["./app/config/*"],
+            "hooks/*": ["./app/hooks/*"],
+            "utils/*": ["./app/utils/*"],
+            "models/*": ["./app/models/*"],
+            "navigation/*": ["./app/navigation/*"],
+            "screens/*": ["./app/screens/*"]
+        }
+    },
+    "include": ["**/*.ts", "**/*.tsx", "app.config.ts"],
+    "exclude": ["node_modules"],
+    "extends": "expo/tsconfig.base"
+}

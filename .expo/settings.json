@@ -1,0 +1,10 @@
+{
+  "urlRandomness": "7yCUM08",
+  "dev": true,
+  "minify": false,
+  "https": false,
+  "hostType": "lan",
+  "lanType": "ip",
+  "scheme": "com.webstaurantstore.expensepro",
+  "devClient": false
+}
