@@ -137,7 +137,7 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({
                             ]}
                             previewOnly={isPDF}
                             isModal={isPDF}
-                            pdfHeight={'86%'}
+                            pdfHeight={ocrState.isErrorDisplayed ? '63%' : '86%'}
                             resizeMode="cover"
                         />
 
